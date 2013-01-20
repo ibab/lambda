@@ -1,3 +1,5 @@
+{-# LANGUAGE NoMonomorphismRestriction #-}
+
 module Language.Lambda.Parser (parseLambda) where
 
 import Language.Lambda
