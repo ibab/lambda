@@ -16,4 +16,4 @@ executable Lambda
   main-is:           Main.hs
   hs-source-dirs:    src
   other-modules:     Language.Lambda, Language.Lambda.Parser
-  build-depends:     base, containers, parsec
+  build-depends:     base, containers, parsec, haskeline
