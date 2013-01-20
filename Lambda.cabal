@@ -1,0 +1,19 @@
+
+name:                Lambda
+version:             0.0.1
+synopsis:            A simple interpreter for the untyped lambda calculus.
+--description:       
+license:             BSD3
+license-file:        LICENSE
+author:              Igor Babuschkin
+--maintainer:
+copyright:           2013
+category:            Language
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable Lambda
+  main-is:           Main.hs
+  hs-source-dirs:    src
+  other-modules:     Language.Lambda, Language.Lambda.Parser
+  build-depends:     base, containers, parsec
